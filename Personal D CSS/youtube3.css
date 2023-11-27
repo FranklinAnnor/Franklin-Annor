@@ -1,0 +1,88 @@
+body{
+background-color: wheat;
+padding-top: 60px;
+padding-left: 60px;
+}
+  
+   
+    
+
+
+.movie-preview {
+   margin-top: 4px;
+   background-color:black;
+
+}
+
+.movie-container {
+    margin-top:20px;
+    margin-left: 20px
+    ;
+    margin-right: 20px;
+    margin-top: 8px;
+    background-color:rgba(246, 255, 0, 0.394);
+}
+
+.info-container {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    margin-left: 20px;
+}
+
+.profile-picture-container {
+    width: 50px;
+    vertical-align: top;
+}
+
+
+.profile-picture {
+    width: 36px;
+    border-radius: 60px;
+    
+}
+
+.p-1-container {
+    width: 245px;
+    margin: 2px;
+
+
+}
+
+.p-1 {
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 2px;
+    margin-left: 0;
+}
+
+.p-2 {
+    font-family: Arial;
+    font-size: 14px;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 2px;
+}
+
+.p-3 {
+    font-family: Arial;
+    font-size: 14px;
+    color: white;
+    margin-top: 2px;
+    margin-left: 0;
+}
+video{width: 50%;
+height: auto;}
+
+.movie-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+column-gap: 16px;
+row-gap: 36px;
+position: absolute;
+margin-left: 30px;
+
+
+}

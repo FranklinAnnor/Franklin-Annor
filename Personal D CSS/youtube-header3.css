@@ -1,0 +1,148 @@
+.Search-bar {
+    flex: 1;
+    height: 34px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-style: rgba(192, 192, 192);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.05);
+    width: 0;
+}
+
+.Search-bar::placeholder {
+    font-family: Arial;
+    font-size: 14px;
+}
+
+.header {
+    background-image: url(../profile1/Islord-3.JPG);
+    background-position: cover;
+
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.hamburger-menu {
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 20px;
+}
+
+.youtube-logo {
+    height: 20px;
+}
+
+.middle-section {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 35px;
+    flex: 1;
+    max-width: 500px;
+}
+
+.Search-button {
+    width: 66.4px;
+    height: 38.4px;
+    background-color: rgba(240, 240, 240);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(192, 192, 192);
+    margin-left: -1px;
+    margin-right: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+.search-icon {
+    height: 25px;
+    margin-top: 4px;
+
+}
+
+.Voice-button {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(245, 245, 245);
+    position: relative;
+}
+
+.Voice-icon {
+    height: 24px;
+    margin-top: 4px;
+}
+
+.right-section {
+    margin-right: 18px;
+    width: 184px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+
+.upload-icon {
+    height: 24px;
+}
+
+.youtube-apps {
+    height: 24px;
+}
+
+.notification {
+    height: 24px;
+
+}
+
+.notification-container {
+    position: relative;
+}
+
+.notification-count {
+    position: absolute;
+    top: -2px;
+    right: -5px;
+    background-color: red;
+    color: white;
+    font-family: Arial;
+    font-size: 11px;
+    padding-left: 4px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    border-radius: 18px;
+}
+
+.current-profile-picture {
+    height: 32px;
+    border-radius: 16px;
+}
+
+
+

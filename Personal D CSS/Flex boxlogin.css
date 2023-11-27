@@ -1,0 +1,66 @@
+.Login-container{
+    position: absolute;top: 12.5px;right: 2.6px;
+    background-color: black;
+    
+}
+#icon{background-color: blue;
+color: white;}
+.material-icon{
+    background-color: orange;
+    border-radius: 4px;
+    color: white;
+    margin-left: 4px;
+    margin-right: 0;
+    font-size: 12px;
+    font-family: Arial;
+}
+.h4{
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    margin-bottom: 0;
+}
+.input-container {background-color: black;
+    padding-top: 2px;
+    text-align: center;
+    
+}
+#person{font-size: 12px;
+    font-family: Arial;
+    border: 1px solid blue;
+    padding: 2px;}
+
+    #person:hover{
+        background-color: lightblue;
+        color: white;
+    }
+input[type="text"],input[type="password"]{
+font-size: 12px;
+font-family: Arial;
+border: 1px solid orange;
+padding: 2px;
+}
+
+#submit{border:1px solid blue;}
+#submit:hover{background-color: blue;}
+
+input[type="submit"] {
+margin-left: 48.5px;
+font-size: 12px;
+font-family: Arial;
+border: 1px solid orange;
+}
+input[type="submit"]:hover,
+input[type="text"]:hover,
+    input[type="password"]:hover {
+    cursor: pointer;
+    background-color: orange;
+    color: white;
+    border-radius: 2px;
+}
+
+
+
+input[type="submit"]:active{
+    opacity: 0.4;
+}

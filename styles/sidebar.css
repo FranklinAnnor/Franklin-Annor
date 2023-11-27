@@ -1,0 +1,38 @@
+.sidebar{
+    background-image: url(../profile1/Islord-3.JPG);
+    background-position: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top:55px;
+    background-color:black;
+    width: 72px;
+    z-index: 200;
+    padding-top: 5px;
+    
+}
+
+.sidebar-link{
+    display: flex;
+    height: 74px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.sidebar-link:hover{
+    background-color: rgb(235, 235, 235);
+}
+
+.sidebar-link  img{
+height: 24px;
+margin-bottom: 4px;
+
+}
+.sidebar-link div{
+    font-family: Arial;
+    font-size:10px;
+    text-align: center;
+
+}

@@ -1,0 +1,129 @@
+
+body{
+    margin: 50px;
+}
+#special{
+    border: 1px solid blue;
+}
+#Image-s{
+    background-color: blue;
+}
+#title-s{
+    color: white;
+}
+.main-container-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0px;
+    row-gap: 16px;
+}
+.main-container {
+    margin-bottom: 4px;
+    margin-left: 20px;
+    display: flex;
+    height: 200px;
+    width: 364px;
+    background-color: rgba(128, 128, 128, 0.207);
+    position: relative;
+    border-radius: 6px;
+    border: 1px solid orange;
+}
+
+.Image-container {
+    position: absolute;
+    padding: 4.5px;
+    background-color: orange;
+    margin-left: 2px;
+    
+    margin-top: 12.6px;
+}
+
+.Image {
+    height: 96px;
+    width: 148px;
+    margin-left: 1px;
+    margin-top: 10px;
+}
+
+.title {
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-top: 0;
+    margin-left: 2px;
+}
+
+.sub-title {
+    font-size: 10px;
+    font-family: Times New Roman;
+    margin-top: -12px;
+    margin-left: 2px;
+}
+
+.Link-container {
+    position: absolute;
+    bottom: 12.8px;
+    left: 50px;
+}
+#link-s{border: 1px solid blue;}
+#link-s:hover{
+    background-color: blue;
+    color: white;
+}
+.Link {
+    border: 1px solid orange;
+    border-radius: 2px;
+    color:black;
+    font-size: 12px;
+    font-family: Arial;
+    background-color: white;
+    cursor: pointer;
+}
+.Link:hover{
+    cursor: pointer;
+    background-color: orange;
+    
+}
+.Link:active{
+    opacity: 0.2;
+}
+
+.Add-container {
+    position: absolute;
+    bottom: 4px;
+    right: 44px;
+}
+
+#Add{background-color:white;
+color:black;
+border: 1px solid blue;}
+#Add:hover{
+cursor: pointer;}
+#Add:active{background-color: blue;
+color: white;}
+
+.Add-chart {
+    font-family: Arial;
+    font-size: 12px;
+    padding: 2px;
+    text-align: center;
+    background-color: rgb(252, 171, 21);
+    border-radius: 6px;
+    border: 1px solid orange;
+    cursor: pointer;
+}
+
+.Add-chart:hover{
+    background-color: white;
+}
+.Add-chart:active{
+    background-color: blue;
+}
+
+.Input {
+    display: inline-block;
+    margin-left: 2px;
+    margin-bottom: 0;
+    position: absolute;
+    bottom: 2px;
+    right: 26px;
+}

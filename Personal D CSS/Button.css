@@ -1,0 +1,178 @@
+
+ 
+ .History-button{
+    background-color:red;
+    color:White;
+    height:30px;
+    width: 70px;
+    border-radius:3px;
+    border:none;
+    border-width: 3px;
+    border-color: rgb(26, 2, 2);
+    cursor: pointer;
+    transition:background-color 0.15s;
+    margin-left: 20px;
+   padding-top:8px;
+   padding-bottom:10px;
+   padding-left: 8px;
+   padding-right: 9px;
+
+    }
+    .History-button:hover{
+        opacity: 0.5;
+        
+    }
+    .History-button:active{
+        opacity: 0.2;
+    }
+
+    .Join-button{
+     background-color: white;
+        border-color: blue;
+        color:blue;
+        height: 30px;
+        width: 50px;
+        cursor: pointer;
+        border-style:solid;
+        border-width: 1px;
+        transition: opacity 0.15s;
+        margin-left: 8px;
+        margin-top: 0;
+        transition:background-color 0.15s;
+        padding-top:8px;
+   padding-bottom:10px;
+   padding-left: 8px;
+   padding-right: 9px;
+    }
+
+    .Join-button:hover{
+        background-color: blue;
+        color:white
+    }
+    .Join-button:active{opacity:0.4 ;}
+
+    .Facebook-button {
+        background-color: blue;
+        color:white;
+        border:none;
+        border-radius: 18px;
+        font-weight: bold;
+        font-size: 12px;
+        height:30px;
+        width: 70px;
+        margin-left:8px;
+        cursor: pointer;
+        transition: box-shadow 0.15s;
+        padding-top:8px;
+   padding-bottom:10px;
+   padding-left: 8px;
+   padding-right: 9px;
+   text-align: center;
+   margin-bottom: 60px;
+    }
+.Facebook-button:hover{
+    box-shadow: 5px 5px 10px rgba(19, 4, 4, 0.15) ;
+}
+    .Facebook-button:active{
+        opacity: 0.4;
+    }
+   
+    .Special-B{
+        background-color: orange;
+        color: white;
+        border:none;
+        border-radius:2px;
+        font-size: 14px;
+        height: 30px;
+        width: 70px;
+        text-align: center;
+        margin-left: 20px;
+        box-shadow: 2px 2px slategrey;
+        cursor: pointer;
+        transition:background-color 0.15s;
+        margin-top:0;
+
+    }
+.Special-B:hover{
+    background-color: white;
+    color:orange;
+}
+ .Special-B:active{
+    background-color:orange;
+    color:black;
+    text-decoration: underline;
+    text-decoration-color: white;
+
+ }
+
+.Login-B{
+    margin-left: 20px;
+    height: 30px;
+    width: 60px;
+    border:1px solid #cc6b5a;
+    background-color: white;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 12px;
+    text-align: center;
+    padding:.5em 1em;
+    transition: background-color 0.15s;
+}
+.Login-B:hover{
+    background-color:#cc6b5a ;
+    color: white;
+}
+.Login-B:active{
+    opacity: 0.6;
+}
+
+.About-B{
+    margin-left: 18px;
+    height: 36px;
+    width: 75px;
+    font-family: Franklin;
+    font-size: 14px;
+    text-align: center;
+    background-color: slategrey;
+    border:  2px solid red;
+cursor: pointer;
+transition: background-color 0.15s;
+box-shadow: 2px 2px rgb(9, 21, 33);
+   
+}
+.About-B:hover{
+    background-color: white;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+.About-B:active{
+    background-color: slategrey;
+    color:white;
+}
+
+
+.Link{
+    width: 48px;
+    height: 20px;
+    font-size: 14px;
+    font-family: Arial;
+    margin-left: 20px;
+    text-align: center;
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+    transition: background-color 0.15s;
+    
+}
+
+.Link:hover{
+    cursor: pointer;
+    background-color: lightgreen;
+    box-shadow: 2px 2px 2px black;
+    color: black;
+
+}
+
+.Link:active{
+    opacity: 0.4;
+}
